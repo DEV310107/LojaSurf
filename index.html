@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Aloha Pump</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style/navbar.css">
+    <link rel="stylesheet" href="/static/style/main.css">
+</head>
+<body>
+     <header>
+        <img src="/static/img/logo.png" id="logo">
+        <nav>
+            <a href="#menu">Menu</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#personalizacao">Personalização</a>
+            <a href="#social">Social</a>
+            <button id="menu">
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <div id="container">
+        <section id="menu" style="background-image: url(/static/img/img1.png);">
+            <h1>AsmrProg</h1>
+        </section>
+        <section id="produtos">
+            <div class="banner">
+                <img class="slide" src="/static/img/img_c_1.png" alt="carrossel_1">
+                <img class="slide" src="/static/img/img_c_2.png" alt="carrossel_2">
+                <img class="slide" src="/static/img/img_c_3.png" alt="carrossel_3">
+                <div>
+                    <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+                    <button class="next" onclick="plusSlides(1)">&#10095;</button>
+                </div>
+            </div>
+        </section>
+        <section id="personalizacao" style="background-image: url(/static/img/img3.png);">
+            <h1>Social</h1>
+        </section>
+        <section id="social" style="background-image: url(/static/img/img4.png);">
+            <h1>About</h1>
+        </section>
+    </div>
+    <script src="/static/script/menu.js"></script>
+    <script src="/static/script/carrossel.js"></script>
+</body>
+</html>
