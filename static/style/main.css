@@ -43,10 +43,19 @@ section h1 {
 }
 
     .banner {
-        display: flex;
-        overflow: hidden;
-        margin-top: 90px;
         position: relative;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+}
+
+    .slide {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
 }
 
     .prev {
