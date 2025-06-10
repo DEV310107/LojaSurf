@@ -53,9 +53,28 @@ section::after {
 }
 
 section h1 {
-    font-size: 120px;
+    font-size: 50px;
     z-index: 2;
 }
+
+.botao {
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 120px;
+    z-index: 2;
+    transition: transform 0.3s ease;
+    transform-origin: center;
+    background-color: rgba(119, 119, 119, 0.6); 
+    border: none;
+    border-radius: 20px; 
+    color: white;
+    cursor: pointer;
+}
+
+.botao:hover {
+    transform: scale(1.1);
+}
+
 
 .banner {
     position: relative;
