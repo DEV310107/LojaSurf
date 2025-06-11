@@ -1,0 +1,56 @@
+header {
+    background-color: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ffffff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_cantato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 30px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.section_cantato h1 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.section_cantato a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 50px;
+    background-color: #3d4246;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.section_cantato a:hover {
+    background-color: #555a5e;
+    transform: scale(1.05);
+}

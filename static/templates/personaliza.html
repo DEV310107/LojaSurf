@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Monte sua Prancha</title>
+  <link rel="stylesheet" href="/static/style/personaliza.css">
+</head>
+<body>
+  <section class="custom-board">
+    <h1>Monte sua Prancha</h1>
+    
+    <form id="customForm">
+      <label>Formato:
+        <select name="shape" id="shape">
+          <option>Shortboard</option>
+          <option>Longboard</option>
+          <option>Fish</option>
+        </select>
+      </label>
+
+      <label>Tamanho:
+        <input type="text" id="size" placeholder="Ex: 6'2">
+      </label>
+
+      <label>Cor:
+        <input type="color" id="color">
+      </label>
+
+      <label>Nome na prancha:
+        <input type="text" id="customName" placeholder="Seu nome">
+      </label>
+
+      <label>Quilhas:
+        <input type="checkbox" id="fins"> Incluir
+      </label>
+
+      <button type="button" onclick="previewBoard()">Visualizar</button>
+    </form>
+
+    <div class="preview" id="previewArea">
+      <!-- Preview da prancha aparecerá aqui -->
+    </div>
+  </section>
+
+  <script src="/static/script/personaliza.js"></script>
+</body>
+</html>
