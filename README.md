@@ -9,6 +9,8 @@ O site "Aloha Pump" é uma plataforma voltada para a venda e personalização de
 - **Tecnologias**: HTML5, CSS3, JavaScript
 
 ## Estrutura de Pastas
+
+```markdown
 static/
 ├── img/
 │   ├── Documentação.jpg
@@ -38,14 +40,8 @@ static/
 │   ├── produtos.html
 │   ├── social.html
 ├── index.html
+```
 
-text
-
-Recolher
-
-Encapsular
-
-Copiar
 ## Descrição dos Arquivos
 
 ### Arquivos HTML
