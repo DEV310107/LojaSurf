@@ -80,7 +80,7 @@ static/
         - Efeito de digitação no título.
     - Scripts/CSS Vinculados: menu.js, carrossel.js, digitador.js, navbar.css, main.css.
     - Imagem Ilustrativa:
-    [Página Inicial](https://github.com/DEV310107/LojaSurf/blob/main/static/img/Documenta%C3%A7%C3%A3o.jpg)
+    [Página Inicial](https://github.com/DEV310107/LojaSurf/blob/main/static/img%20Documenta%C3%A7%C3%A3o/1.png)
     Descrição: Captura da página inicial com o texto "Bem Vindo, Aloha Pump" e um surfista em ação.
 2. **produtos.html**
     - Descrição: Página de produtos, exibindo uma grade de cards com informações de pranchas (imagens, nomes, descrições e preços).
@@ -89,7 +89,7 @@ static/
         - Botões de compra por card.
     - Scripts/CSS Vinculados: modo_escuro.js, edit_darkmode.css, produtos.css.
     - Imagem Ilustrativa:
-    [Página de Produtos](https://github.com/DEV310107/LojaSurf/blob/main/static/produto%20claro%206.png)
+    [Página de Produtos](https://github.com/DEV310107/LojaSurf/blob/main/static/img%20Documenta%C3%A7%C3%A3o/produto%20dark%205.png)
     Descrição: Captura da página de produtos mostrando uma grade de pranchas com preços e botões de compra.
 3. **personaliza.html**
     - Descrição: Página para personalização de pranchas, com formulário interativo.
@@ -100,9 +100,9 @@ static/
         - Modo escuro alternável.
     - Scripts/CSS Vinculados: personaliza.js, modo_escuro.js, edit_darkmode.css, personaliza.css.
     - Imagem Ilustrativa:
-    [Página de Personalização - Modo Claro](https://github.com/DEV310107/LojaSurf/blob/main/static/personaliza%C3%A7%C3%A3o3.png)
+    [Página de Personalização - Modo Claro](https://github.com/DEV310107/LojaSurf/blob/main/static/img%20Documenta%C3%A7%C3%A3o/personaliza%C3%A7%C3%A3o%203.png)
     Descrição: Captura da página de personalização em modo claro com formulário preenchido.
-    [Página de Personalização - Modo Escuro](https://github.com/DEV310107/LojaSurf/blob/main/static/personaliza%C3%A7%C3%A3o6_dark.png)
+    [Página de Personalização - Modo Escuro](https://github.com/DEV310107/LojaSurf/blob/main/static/img%20Documenta%C3%A7%C3%A3o/personaliza%C3%A7%C3%A3o%20dark4.png)
     Descrição: Captura da página de personalização em modo escuro com formulário preenchido.
 4. **social.html**
     - Descrição: Página de contato com links para telefone, WhatsApp e e-mail.
@@ -111,9 +111,9 @@ static/
         - Links clicáveis para contato.
     - Scripts/CSS Vinculados: modo_escuro.js, alertas_social.js, edit_darkmode.css, social.css.
     - Imagem Ilustrativa:
-    [Página de Contato - Modo Escuro](https://github.com/DEV310107/LojaSurf/blob/main/static/social%20preto%208.png)
+    [Página de Contato - Modo Escuro](https://github.com/DEV310107/LojaSurf/blob/main/static/img%20Documenta%C3%A7%C3%A3o/social%20preto%208.png)
     Descrição: Captura da página de contato em modo escuro com links de telefone, WhatsApp e e-mail.
-    [Página de Contato - Modo Claro](https://github.com/DEV310107/LojaSurf/blob/main/static/social%20branco%207.png)
+    [Página de Contato - Modo Claro](https://github.com/DEV310107/LojaSurf/blob/main/static/img%20Documenta%C3%A7%C3%A3o/social%20branco%207.png)
     Descrição: Captura da página de contato em modo claro com links de telefone, WhatsApp e e-mail.
 
 ### Arquivos CSS
