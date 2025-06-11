@@ -84,7 +84,7 @@ section h1 {
     z-index: 1001;
 }
 
-.botao_topo:hover {
+.botaotopo:hover {
     transform: translate(-50%, -50%) scale(1.1);
 }
 
@@ -130,11 +130,3 @@ section h1 {
     cursor: pointer;
     z-index: 1000;
 }
-
-@media screen and (max-width: 520px) {
-    section h1 {
-        font-size: 80px;
-    }
-}
-
-

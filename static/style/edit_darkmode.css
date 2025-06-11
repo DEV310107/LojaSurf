@@ -1,54 +1,95 @@
+/* Base */
+body {
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: #333333;
+  margin: 0;
+  padding-top: 70px;
+  transition: all 0.3s ease;
+}
+
 header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
 }
 
 .main {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 .main img {
-    height: 50px;
+  height: 50px;
 }
 
 button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s;
 }
 
 button:hover {
-    background-color: #45a049;
+  background-color: #45a049;
 }
 
-body {
-    background-color: #ffffff;
-    color: #333333;
-    font-family: Arial, sans-serif;
-    transition: all 0.3s ease;
-    margin: 0;
-    padding-top: 70px;
-}
-
+/* Modo escuro */
 body.dark-mode {
-    background-color: #1a1a1a;
-    color: #e0e0e0;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
 }
 
-button.dark-mode {
-    background-color: #555555;
+body.dark-mode button {
+  background-color: #555555;
 }
 
-button.dark-mode:hover {
-    background-color: #666666;
+body.dark-mode button:hover {
+  background-color: #666666;
+}
+
+body.dark-mode input,
+body.dark-mode select,
+body.dark-mode textarea {
+  background-color: #333333;
+  color: #ffffff;
+  border: 1px solid #555555;
+}
+
+body.dark-mode label {
+  color: #e0e0e0;
+}
+
+body.dark-mode .preview {
+  background-color: #2a2a2a;
+  color: #ffffff;
+}
+
+body.dark-mode .custom-board {
+  background-color: #2a2a2a;
+  color: #ffffff;
+}
+
+body.dark-mode .custom-board input,
+body.dark-mode .custom-board select {
+  background-color: #444444;
+  color: #ffffff;
+  border: 1px solid #666666;
+}
+
+body.dark-mode .custom-board input::placeholder {
+  color: #cccccc;
+}
+
+body.dark-mode .custom-board label {
+  color: #dddddd;
 }

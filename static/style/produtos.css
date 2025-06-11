@@ -107,20 +107,3 @@ button:hover {
 .botao-comprar:hover {
     background-color: #009624;
 }
-
-/* Responsividade extra para telas pequenas */
-@media (max-width: 600px) {
-    header .main {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-    }
-
-    .titulo {
-        font-size: 1.5rem;
-    }
-
-    .card img {
-        height: 150px;
-    }
-}

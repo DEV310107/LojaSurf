@@ -111,24 +111,3 @@ header.sticky nav a {
     transform: scale(0.3);
     transition-delay: 0.1s;
 }
-
-@media screen and (max-width: 520px) {
-    header nav {
-        height: 60px;
-        width: 390px;
-    }
-
-    header nav button {
-        width: 50px;
-        height: 50px;
-    }
-
-    header nav a {
-        font-size: 16px;
-    }
-
-    header.sticky nav {
-        width: 70px;
-        height: 70px;
-    }
-}
