@@ -59,22 +59,34 @@ section h1 {
 
 .botao {
     text-decoration: none;
-    padding: 10px 10px;
-    font-size: 120px;
-    z-index: 2;
-    transition: transform 0.3s ease;
-    transform-origin: center;
+    padding: 10px 20px;
+    font-size: 40px;
     background-color: rgba(119, 119, 119, 0.6); 
     border: none;
     border-radius: 20px; 
     color: white;
     cursor: pointer;
+    transition: transform 0.3s ease;
+    display: inline-block;
+    text-align: center;
+    z-index: 2;
 }
 
 .botao:hover {
     transform: scale(1.1);
 }
 
+.botao_topo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1001;
+}
+
+.botao_topo:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+}
 
 .banner {
     position: relative;
@@ -89,7 +101,8 @@ section h1 {
     left: 0;
     width: 100vw;
     height: 100vh;
-    object-fit: cover;
+    object-fit: cover; 
+    z-index: 0;
 }
 
 .prev {
