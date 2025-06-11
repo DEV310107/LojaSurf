@@ -84,9 +84,10 @@ section h1 {
     z-index: 1001;
 }
 
-.botaotopo:hover {
+.botao_topo:hover {
     transform: translate(-50%, -50%) scale(1.1);
 }
+
 
 .banner {
     width: 100vw;

@@ -15,3 +15,4 @@ function previewBoard() {
     <p><strong>Quilhas:</strong> ${fins ? 'Sim' : 'Não'}</p>
   `;
 }
+  
